@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div style="background-color: #d6d6d6; color: black; padding: 20px; margin: 0px;width: 800px; clear: both;">
+	<form>
+
+	<h3><span style="color: red">*</span>- Denotes Required Information</h3>
+	<p>
+		<b>> 1 Donation</b>   > 2 Confirmation   > Thank You!
+	</p>
+
+	<h2><span style="color: red">Donor Information</span></h2>
+	
+	<table>
+
+	  <tr>
+	    <td style="text-align: right;">
+	    	First Name <span style="color: red">*</span>
+	    </td>
+	    <td>
+	    	<input type="text" name="first name">
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="text-align: right;">
+	    	Last Name<span style="color: red">*</span>
+	    </td>
+	    <td>
+	    	<input type="text" name="last name">
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="text-align: right;">
+	    	Company
+	    </td>
+	    <td>
+	    	<input type="text" name="Company">
+	    </td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Address1<span style="color: red">*</span>
+	  	</td>
+	  	<td>
+	  		<input type="text" name="address1">
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Address2
+	  	</td>
+	  	<td>
+	  		<input type="text" name="address2">
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		City
+	  	</td>
+	  	<td>
+	  		<input type="text" name="city">
+	  	</td>
+	  </tr>
+	
+
+	  <tr>
+	  	<td style="text-align: right; ">
+			<label for="state">State <span style="color: red">*</span></label>
+		</td>
+		<td>
+			<select name="state" id="state" style="border-radius: 5px; border: 1px solid black">
+   			<option value="State">Select a State</option>
+			</select>
+		</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Zip Code<span style="color: red">*</span>
+	  	</td>
+	  	<td>
+	  		<input type="text" name="zip code">
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		<label for="country">Country <span style="color: red">*</span></label>
+	  	</td>
+	  	<td>
+	  		<select name="countryy" id="country" style="border-radius: 5px; border: 1px solid black">
+			    <option value="Country">Select a Country</option>
+			    <option value="Country">Bangladesh</option>
+			    <option value="Country">India</option>
+			    <option value="Country">France</option>
+			    <option value="Country">Pakistan</option>
+			    <option value="Country">China</option>
+			    <option value="Country">Sweden</option>
+			    <option value="Country">Brasil</option>
+			</select>
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Phone
+	  	</td>
+	  	<td>
+	  		<input type="text" name="Phone">
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Fax
+	  	</td>
+	  	<td>
+	  		<input type="text" name="fax">
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Email<span style="color: red">*</span>
+	  	</td>
+	  	<td>
+	  		<input type="email" name="email">
+	  	</td>
+	  </tr>
+
+
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Donation Amount<span style="color: red">*</span>
+	  		<br>
+			(Check a button or type in your ammount)
+		</td>
+		
+		<td>	
+			<input type="radio" id="none" name="ammount" value="male" style="cursor: pointer; ">
+			<label for="none">None</label>
+		
+	  		<input type="radio" id="$50" name="ammount" value="$" style="cursor: pointer; ">
+			<label for="$50">$50</label>
+	  	
+	  		<input type="radio" id="other" name="ammount" value="$" style="cursor: pointer; ">
+			<label for="other">$75</label>
+	  	
+	  		
+			<input type="radio" id="$100" name="ammount" value="$" style="cursor: pointer; ">
+			<label for="$100">$100</label>
+	  	
+	  		<input type="radio" id="$250" name="ammount" value="$" style="cursor: pointer; ">
+			<label for="$250">$250</label>
+	  	
+	  		<input type="radio" id="other" name="ammount" value="$" style="cursor: pointer; ">
+			<label for="other">Other</label>
+			<br>
+			Other ammount $ <input type="email" name="email">
+	  	</td>								
+	  </tr>
+	  <tr>
+	  	<td style="text-align: right;">
+	  		Requrring Donation (Check if yes)
+	  	</td>
+	  	<td>
+	  		<input type="checkbox" id="interest" name="interest" value="Requirring Donation" style="cursor: pointer; ">
+			<label for="interest">I am interested in giving on a regular basis</label>
+	  	</td>
+	  </tr>
+	  	
+	  <tr>
+	  	<td></td>
+	  	<td>
+	  		
+	  		Monthly Credit Card $
+			<input type="text" name="Credit">
+			For
+			<input type="text" name="month">
+			Months
+			
+	  	</td>
+	  </tr>
+	</table>
+
+	<table>
+		<th>
+			<h2><span style="color: red">Honorarium and Memorial Donation Information</span></h2>
+		</th>
+	</table>
+
+	<table>
+		
+		<tr>
+			<td style="text-align: right;">
+				I would like to make this donation
+			</td>
+			<td>
+				<input type="radio" id="To Honor" name="To Honor" value="To Honor" style="cursor: pointer; ">
+				<label for="To Honor">To Honor</label>
+				<br>
+				<input type="radio" id="In Memory of" name="In Memory of" value="In Memory of"style="cursor: pointer; ">
+				<label for="In Memory of">In Memory of</label>
+			</td>
+		<tr>
+			<td style="text-align: right;">
+				Name
+			</td>
+			<td>
+				<input type="text" name="name">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				Acknowladge Donation to
+			</td>
+			<td>
+				<input type="text" name="acknowladge">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				Address
+			</td>
+			<td>
+				<input type="text" name="address">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				City
+			</td>
+			<td>
+				<input type="text" name="city">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				Name
+			</td>
+			<td>
+				<input type="text" name="name">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<label for="state">State</label>
+			</td>
+			<td>
+			    <select name="state" id="state" style="border-radius: 5px; border: 1px solid black">
+   					<option value="State">Select a State</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				Zip
+			</td>
+			<td>
+				<input type="text" name="zip">
+			</td>
+		</tr>
+		
+	</table>
+	<div style="width: 650px; ">
+		<h2 style="padding: 0px; margin: 0px;"><span style="color: red">Additional Information</span></h2>
+				
+					Please enter your name, company or organization as you would like to appear in our publications :
+	</div>
+
+
+
+	<table>
+		<tr>
+			<td style="width: 220px; text-align: right; ">
+				Name
+			</td>
+			<td>
+				<input type="text" name="name">
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+	<p>
+		<input type="checkbox" id="anonymous gift" name="anonymous gift" value="gift" style="cursor: pointer; ">
+		<label for="anonymous gift">I would like my gift to remain anonynous.</label>
+		<br>
+		<input type="checkbox" id="matching gift" name="matching gift" value="gift" style="cursor: pointer; ">
+		<label for="matching gift">My employer offers a matching gift program. I will mail the matching gift =form</label>
+		<br>
+		<input type="checkbox" id="not mail" name="not mail" value="letter" style="cursor: pointer; ">
+		<label for="not mail">Please save the cost of acknowledging this gift by not mailing a thank you letter.</label>
+	</p>
+	<p>
+		Comments
+		(Please type any questions or feedback here)
+		<textarea rows="4" cols="50" form="userform"></textarea>
+	</p>
+	
+
+	<table>
+		<tr>
+			<td>
+				<b>How may we contact you?</b>
+			</td>
+			<td>
+				<input type="checkbox" id="E-mail" name="E-mail" value="mail">
+				<label for="E-mail">E-mail</label>
+				<br>
+				<input type="checkbox" id="PostalMail" name="PostalMail" value="mail">
+				<label for="PostalMail">Postal Mail</label>
+				<br>
+				<input type="checkbox" id="Telephone" name="Telephone" value="Telephone">
+				<label for="Telephone">Telephone</label>
+				<br>
+				<input type="checkbox" id="Fax" name="Fax" value="Fax">
+				<label for="Fax">Fax</label>
+			</td>
+		</tr>
+	</table>
+		
+		
+
+		
+	
+	<p>
+		I would like to receive newsletters and information about special events by:
+	</p>
+
+
+
+	
+	<table>
+		<tr>
+			<td style="color: #d6d6d6">advcvjavcjhav</td>
+			<td style="">
+				<input type="checkbox" id="E-mail" name="E-mail" value="mail">
+				<label for="E-mail">E-mail</label>
+
+				<br>
+				<input type="checkbox" id="PostalMail" name="PostalMail" value="mail">
+				<label for="PostalMail">Postal Mail</label>
+			</td>
+			
+		
+		</tr>
+	</table>
+
+
+	
+	<p>
+		<input type="checkbox" id="volunteering" name="volunteering" value="volunteering">
+		<label for="volunteering">I would like information about volunteering with the</label>
+	</p>
+
+	<div style="width: 750px; height: 10px; border: 1px solid #000"></div>
+
+	<p style="text-align: center;">
+		<button type="button"  onclick="Reset" style="border-radius: 500px; border: 1px solid black">Reset</button>
+		<button type="button"  onclick="Continue" style="border-radius: 500px; border: 1px solid black">Continue</button>
+	</p>
+	<p>
+		<img alt="Secure server Royalty Free Vector Image - VectorStock" class="n3VNCb" src="https://cdn3.vectorstock.com/i/1000x1000/11/17/secure-server-vector-8391117.jpg" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 15px; height: 15px; margin: 0px;">
+		Donate online with confidence. You are on a secure server. 
+	</p>
+	<p>
+		If you have any problems or questions, please contact <a href="https://fundacioforms.fcbarcelona.cat/fundacio/en/donacions/1/?_ga=2.86537368.1073627795.1610376926-168711923.1610016437&gclid=EAIaIQobChMI5duqi8308AIVN9xMAh1rGQwAEAAYASAAEgImqPD_BwE" target="blank">support.</a>
+	</p>
+	</form>
+	</div>
+
+
+</body>
+</html>
